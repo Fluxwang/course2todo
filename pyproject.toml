@@ -1,0 +1,13 @@
+[project]
+name = "caltodo"
+version = "0.1.0"
+description = "Sync Outlook class calendar to Microsoft To Do homework list"
+requires-python = ">=3.11"
+dependencies = [
+    "msgraph-sdk>=1.0.0",
+    "azure-identity>=1.15.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
